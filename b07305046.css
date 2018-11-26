@@ -1,0 +1,155 @@
+* {
+    font-family: 微軟正黑體;
+}
+
+body {
+    background-color: #edfff3;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border: solid 1px #858a9a;
+    width: 100%;
+    background-color: #5c83bb;
+}
+
+nav li {
+    display: inline;
+    justify-content: space-between;
+    text-shadow: 3px 1px 7px #5a9cff;
+    box-shadow: 3px -1px 20px 2px #3f529c;
+}
+
+nav ul {
+    margin: 0;
+    text-shadow: 3px 1px 7px #1953a9;
+    padding-left: 20%;
+}
+
+nav a {
+    padding: 0em 3em;
+    font-size: 20px;
+    color: #cff3ff;
+}
+
+nav a:hover {
+    background-color: #3f529c
+}
+
+a {
+    text-decoration: none;
+}
+
+caption {
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+.icon {
+    font-size: 2rem;
+    position: relative;
+    bottom: 0%;
+    justify-content: space-between;
+    padding: 0em 15em;
+    margin-top: 3em;
+    box-shadow: inset 0 0 9px 1px #b9e2e2;
+    background-color: #c4c7c74d;
+}
+
+.class {
+    position: relative;
+    left: 18em;
+    top: 2em;
+    width: 50%;
+    margin: 0px;
+}
+
+.namecard {
+    position: relative;
+    background-color: #d5ecec;
+    padding-bottom: 2em;
+    color: #006fb3;
+    text-shadow: 2px 2px 13px #169292;
+}
+
+#mumu_p {
+    width: 300px;
+    position: relative;
+    top: 5em;
+    left: 15em;
+    border-radius: 100%;
+    box-shadow: 2px 7px 20px 13px #7abbc33b;
+}
+
+#mumu_t {
+    position: relative;
+    top: -5em;
+    left: 37em;
+    border-color: #5db3ffa6;
+    border-left-style: double;
+    border-width: unset;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    padding-left: 25px;
+}
+
+p.talk {
+    position: relative;
+    top: -5em;
+    left: 42em;
+    width: 45%;
+    font-style: italic;
+}
+
+#icon_l {
+    margin: 0 5%;
+    color: #23b959;
+}
+
+a#icon_l:hover {
+    color: #395e45
+}
+
+#icon_m {
+    margin: 0 5%;
+    color: #de9db2;
+}
+
+a#icon_m:hover {
+    color: #634464
+}
+
+#icon_f {
+    margin: 0 5%;
+    color: #3a4d86;
+}
+
+a#icon_f:hover {
+    color: #080727
+}
+
+table#t01 {
+    border: 1px solid rgba(177, 189, 207, 0.425);
+    border-collapse: collapse;
+    line-height: 25px;
+    color: #173a7b;
+    box-shadow: 0px -6px 20px 20px rgba(229, 251, 255, );
+}
+
+table#t01 th {
+    background-color: rgb(190, 222, 240);
+    width: 60px;
+    justify-content: space-between;
+    border: solid 1px;
+    border-color: white;
+}
+
+table#t01 td {
+    background-color: rgb(223, 237, 240);
+    text-align: left;
+    border: solid 1px;
+    border-color: white;
+}
